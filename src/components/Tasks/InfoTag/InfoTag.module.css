@@ -1,0 +1,27 @@
+.infoTag_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.infoTag_container strong {
+  font-size: var(--font-medium);
+  font-weight: 700;
+}
+
+.infoTag_container span {
+  height: 1.188rem;
+
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 62.438rem;
+
+  font-size: var(--font-small);
+  color: var(--gray-200);
+  font-weight: 700;
+}
